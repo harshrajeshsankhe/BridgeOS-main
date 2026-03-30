@@ -1,146 +1,124 @@
-BridgeOS
-A Multilingual, Voice-First Civic Intelligence Platform
-Introduction
+# BridgeOS  
+### A Multilingual, Voice-First Civic Intelligence Platform
+
+---
+
+## Introduction  
 
 BridgeOS is a civic technology platform designed to solve a critical gap in public systems: citizens who are eligible for government benefits but never access them.
 
 Instead of expecting users to search for schemes, BridgeOS understands their real-life situation and converts it into clear, actionable outcomes — in their own language.
 
-The Problem
+---
+
+## The Problem  
 
 Across India, millions of citizens remain excluded from welfare systems due to:
 
-Lack of awareness of available schemes
-Language and literacy barriers
-Complex, fragmented government portals
-Difficulty understanding eligibility and documentation
+- Lack of awareness of available schemes  
+- Language and literacy barriers  
+- Complex, fragmented government portals  
+- Difficulty understanding eligibility and documentation  
 
 The issue is not eligibility — it is access.
 
-Our Approach
+---
+
+## Our Approach  
 
 BridgeOS shifts from scheme-based discovery to life-based understanding.
 
 Users simply describe their situation. The system interprets their context and delivers:
 
-Relevant schemes
-Eligibility clarity
-Required documentation
-Step-by-step guidance
+- Relevant schemes  
+- Eligibility clarity  
+- Required documentation  
+- Step-by-step guidance  
 
 All in a format designed for low-literacy and multilingual users.
 
-Live Demo
+---
+
+## Live Demo  
 
 https://bridge-os-nine.vercel.app/
 
-Core Capabilities
-1. Multilingual and Voice-First Interaction
+---
 
+## Core Capabilities  
+
+### 1. Multilingual and Voice-First Interaction  
 Supports six Indian languages with seamless switching. Users can speak inputs and listen to responses, enabling accessibility for low-literacy users.
 
-2. Intelligent Scheme Matching
+### 2. Intelligent Scheme Matching  
+Matches users to schemes based on profile data and contextual input. Each result includes confidence score, benefit estimation, eligibility explanation, and deadline awareness.
 
-Matches users to schemes based on profile data and contextual input. Each result includes:
-
-Confidence score
-Benefit estimation
-Eligibility explanation
-Deadline awareness
-3. Explainability and Transparency
-
+### 3. Explainability and Transparency  
 Every recommendation includes a clear “Why You Qualify” breakdown, making the system trustworthy and easy to understand.
 
-4. Actionable Guidance
+### 4. Actionable Guidance  
+BridgeOS provides document checklist generation, step-by-step action plans, printable outputs, and application tracking flow.
 
-BridgeOS does not stop at discovery. It provides:
+### 5. Integrated Civic Ecosystem  
+Includes jobs and skill development programs, legal rights explained in simple language, and civic participation tools.
 
-Document checklist generation
-Step-by-step action plans
-Printable outputs for offline use
-Application tracking flow
-5. Integrated Civic Ecosystem
+### 6. Policy-Level Insight  
+Simulates district-level adoption impact and estimates welfare unlocked through increased access.
 
-Beyond schemes, the platform includes:
+### 7. Hardware-Ready Architecture  
+Designed for extension via kiosk-based deployments for low-connectivity rural environments.
 
-Jobs and skill development programs
-Legal rights explained in simple language
-Civic participation tools (grievances, voter information)
-6. Policy-Level Insight
+---
 
-BridgeOS includes a governance layer that simulates adoption impact at district level, enabling estimation of welfare unlocked through increased access.
+## System Design  
 
-7. Hardware-Ready Architecture
+User Input → Eligibility Engine → Matching Logic → Explanation Layer → Action Plan Generator  
 
-The system is designed to extend beyond smartphones via kiosk-based deployments, enabling access in low-connectivity rural environments.
+Optimized for low-bandwidth environments, low-end devices, and scalable deployment.
 
-System Design
+---
 
-BridgeOS follows a modular architecture:
+## Technology Stack  
 
-User Input → Eligibility Engine → Matching Logic → Explanation Layer → Action Plan Generator
+Frontend  
+- Next.js  
+- Tailwind CSS  
+- Zustand  
 
-The system is optimized for:
+Backend  
+- FastAPI  
+- SQLAlchemy  
 
-Low-bandwidth environments
-Low-end devices
-Scalable deployment across districts
-Technology Stack
+Supporting Technologies  
+- i18next  
+- Web Speech API  
+- Socket.io  
+- Progressive Web App  
 
-Frontend
+---
 
-Next.js
-Tailwind CSS
-Zustand
+## Cost and Scalability  
 
-Backend
+- Estimated cost: ₹1–₹3 per user per month  
+- Deployable via government, NGO, and CSC networks  
+- Efficient scaling with increased adoption  
 
-FastAPI
-SQLAlchemy
+---
 
-Supporting Technologies
+## Privacy and Trust  
 
-i18next (multilingual support)
-Web Speech API (voice interaction)
-Socket.io (real-time simulation)
-Progressive Web App (offline capability)
-Cost and Scalability
+- No storage of sensitive identity data such as Aadhaar  
+- Transparent eligibility logic  
+- User-controlled data handling  
 
-BridgeOS is designed for large-scale deployment:
+---
 
-Estimated cost: ₹1–₹3 per user per month
-Deployable through government, NGO, and CSC networks
-Scales efficiently with increased adoption
-Privacy and Trust
+## Vision  
 
-BridgeOS is built with a privacy-first approach:
+BridgeOS aims to become a foundational civic layer ensuring every citizen can access the benefits they are entitled to, regardless of language, literacy, or location.
 
-No storage of sensitive identity data such as Aadhaar
-Transparent eligibility logic
-User-controlled data handling
-Vision
+---
 
-BridgeOS aims to become a foundational civic layer that ensures every citizen — regardless of language, literacy, or location — can access the opportunities and benefits they are entitled to.
-
-One-Line Summary
+## One-Line Summary  
 
 BridgeOS turns eligibility into action.
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-
-
